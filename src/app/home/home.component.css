@@ -1,0 +1,196 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: "Roboto Cn", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #eee;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url("front.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    
+}
+
+.CCDAssist{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.CCDAssist span{
+    color: crimson;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    padding: 1rem 0;
+    margin: 0 3rem;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+nav ul li a:last-child{
+    margin-right: 0;
+}
+
+nav ul li a::before,
+nav ul li a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(9, 4, 250);
+    left: 0;
+    transform: scaleX(0);
+    transition: all .5s;
+}
+
+nav ul li a::before{
+    top: 0;
+    transform-origin: left;
+}
+
+nav ul li a::after{
+    bottom: 0;
+    transform-origin: right;
+}
+
+nav ul li a:hover::before,
+nav ul li a:hover::after{
+    transform:scaleX(1);
+}
+
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    width: 200;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #0a008f, #024206, #ff0000);
+    background-size: 400% 400%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    animation: change 5s ease-in-out infinite;
+}
+
+h1{
+    font-size: 10rem;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 16px #fff;
+    border-style:solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40cm;
+    transform: translate(-50%, -50%);
+    padding: 5rem 10rem;
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+.part2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(mainpic.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.part3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(mainpic2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+}
+
+.part4{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(acura.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: right;
+}
+.row{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: inherit;
+    left: 20px;
+    top:100px;
+    font-family: cursive;
+}
+p{
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+    right: 30px;
+}*/

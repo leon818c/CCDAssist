@@ -1,0 +1,44 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<div class="container">
+    <div class="homeButton">
+        <i class="material-icons md-36" (click) = "onNavigate('FP')">home</i>
+    </div>
+    <div class="buttonRow">
+        <label for = "groupNum">Number of groups</label>
+        <input type="number" class="form-control" style = "width: 60px;" value="2" min="1" max="5" #groupNum>
+        <button class="btn btn-primary" (click) = "groupByName(groupNum.value)">Name</button>
+        <button class="btn btn-success"  (click)="groupByGender()">Gender</button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3">
+                <label for="originalList">Original List</label>
+                <div class="list-group" #originalList>
+                    <a *ngFor = "let name of names" class="list-group-item">{{name.name}}</a>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="list-group" #group1>
+                    <label for = "group1" *ngIf ="splitArray1.length > 0">Group 1</label>
+                    <a *ngFor = "let name of splitArray1" class="list-group-item">{{name.name}}</a>
+                </div>
+                <div class="list-group" #group2>
+                    <label for = "group2" *ngIf ="splitArray2.length > 0">Group 2</label>
+                    <a *ngFor = "let name of splitArray2" class="list-group-item">{{name.name}}</a>
+                </div>
+                <div class="list-group" #group3>
+                    <label for = "group3" *ngIf ="splitArray3.length > 0">Group 3</label>
+                    <a *ngFor = "let name of splitArray3" class="list-group-item">{{name.name}}</a>
+                </div>
+                <div class="list-group" #group4>
+                    <label for = "group4" *ngIf ="splitArray4.length > 0">Group 4</label>
+                    <a *ngFor = "let name of splitArray4" class="list-group-item">{{name.name}}</a>
+                </div>
+                <div class="list-group" #group5>
+                    <label for = "group5" *ngIf ="splitArray5.length > 0">Group 5</label>
+                    <a *ngFor = "let name of splitArray5" class="list-group-item">{{name.name}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

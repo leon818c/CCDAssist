@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CCDAssist';
+  loadedFeature = 'H';
+  onNavigate(navigateTo: string){
+    this.loadedFeature = navigateTo;
+  }
 }
