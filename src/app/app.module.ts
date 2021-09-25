@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { TestingComponent } from './testing/testing.component';
 import { FeaturesPageComponent } from './features-page/features-page.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FeaturesPageComponent } from './features-page/features-page.component';
     HeaderComponent,
     HomeComponent,
     TestingComponent,
-    FeaturesPageComponent
+    FeaturesPageComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule

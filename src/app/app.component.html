@@ -7,5 +7,6 @@
       <app-catholic-answers *ngIf = "loadedFeature === 'C'"></app-catholic-answers>
       <app-testing *ngIf = "loadedFeature === 'T'"></app-testing>
       <app-features-page *ngIf = "loadedFeature === 'FP'" (featureSelected) = "onNavigate($event)"></app-features-page>
+      <app-login *ngIf = "loadedFeature === 'L'"></app-login>
     </div>
   
