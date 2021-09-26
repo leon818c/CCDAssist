@@ -11,6 +11,9 @@ import { HomeComponent } from './home/home.component';
 import { TestingComponent } from './testing/testing.component';
 import { FeaturesPageComponent } from './features-page/features-page.component';
 import { LoginComponent } from './login/login.component';
+import { QuestionsComponent } from './questions/questions.component';
+import {MatIconModule} from '@angular/material/icon';
+
 
 @NgModule({
   declarations: [
@@ -23,10 +26,12 @@ import { LoginComponent } from './login/login.component';
     HomeComponent,
     TestingComponent,
     FeaturesPageComponent,
-    LoginComponent
+    LoginComponent,
+    QuestionsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

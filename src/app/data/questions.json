@@ -1,0 +1,17 @@
+[
+    {"id":"1","question":"8th to 10th grade CCD books are centered around","choice1":"Trinity","choice2":"Jesus","choice3":"Life","choice4":"Church ","answer":"4"},
+    {"id":"2","question":"What is the meaning of the word 'Church'?","choice1":"Assembly of those worship together","choice2":"Assembly of those who are called together","choice3":"Children of God","choice4":"Followers of  Jesus","answer":"2"},
+    {"id":"3","question":"Where did God write the terms of new covenant established through the Son of God","choice1":"tablets of stone","choice2":"Books of Law","choice3":"Human hearts","answer":"3"},
+    {"id":"4","question":"Why did God send the savior Jesus Christ to the world?","choice1":"To heal every sickness","choice2":"To save all people from the poverty","choice3":"To save his people from their sins","choice4":"","answer":"3"},
+    {"id":"5","question":"The saint who lived and died in the 20th century and experienced 'Stigmata'?","choice1":"St Alphonsa","choice2":"St Padre Pio","choice3":"St Carlos Acutis","choice4":"St John Vianney","answer":"2"},
+    {"id":"6","question":"Approximately how many lambs were slaughtered during the Passover Festival?","choice1":"2500","choice2":"25000","choice3":"250000","choice4":"2500000","answer":"3"},
+    {"id":"7","question":"Where did Jesus take the disciples to ask the question 'Who do people say that the Son of Man is'?","choice1":"Jerusalem","choice2":"Capernaum","choice3":"Galilee","choice4":"Caesarea Philippi","answer":"4"},
+    {"id":"8","question":"What was Peter's response to Jesus question 'Who do people say that the Son of Man is?","choice1":"You are the Messiah, the Son of the Living God","choice2":"You are John the Baptist came back to life","choice3":"You are Jeremiah one of the Prophets","answer":"1"},
+    {"id":"9","question":"To whom did God say - 'I will make you a great nation and I will bless you. I will make your name great so that you will be a blessing (Gen 12:2)'","choice1":"Abraham","choice2":"Isaac","choice3":"Moses","choice4":"Jacob","answer":"1"},
+    {"id":"10","question":"To whom God said 'I am the Lord your God, the God of Abraham, and the God of Isaac and the God of Jacob'?","choice1":"Abraham","choice2":"Isaac","choice3":"Moses","choice4":"Jacob","answer":"3"},
+    {"id":"11","question":"'Syro' in the name 'Syro  Malabar' church was added because ","choice1":"community was migrants from Syria","choice2":"Liturgical language of the community was Syriac","choice3":"community was led by Syrian Bishops","answer":"2"},
+    {"id":"12","question":"According to St Paul  in Ephesians 1:4,  why did God choose us in Christ before the foundation of the world?","choice1":"To help the needy","choice2":"To be successful in life","choice3":"To be Holy and without blemish before Him","answer":"3"},
+    {"id":"13","question":"Commandments were given because People of Israel was having too much freedom","choice1":"True","choice2":"False","answer":"2"},
+    {"id":"14","question":"Church is a sign and instrument of salvation for Christians only ","choice1":"True","choice2":"False","answer":"2"},
+    {"id":"15","question":"Jesus is one of the many mediators between God and Men.","choice1":"True","choice2":"False","answer":"2"}
+]

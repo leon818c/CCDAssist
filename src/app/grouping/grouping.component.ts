@@ -17,6 +17,13 @@ export class GroupingComponent implements OnInit {
   splitArray5: {name: string, gender: string}[] = [];
 
 
+  //scores
+  score1: number=0;
+  score2: number=0;
+  score3: number=0;
+  score4: number=0;
+  score5: number=0;
+  
   constructor() { }
 
   ngOnInit(): void {
@@ -89,8 +96,67 @@ export class GroupingComponent implements OnInit {
     this.splitArray2 = this.names.filter((Name) => Name.gender === 'f');
 
   }
-  onNavigate(menuItem: string){
-    console.log(menuItem);
+
+  Navigate(menuItem: string){
+    //console.log(menuItem);
     this.featureSelected.emit(menuItem);
+  }
+  incrementScore(num:number, scoreVal: string){
+    switch(num){
+      case 1:
+        this.score1 = this.score1 + parseInt(scoreVal);
+        break;
+      case 2:
+        this.score2 = this.score2 + parseInt(scoreVal);
+        break;
+      case 3:
+        this.score3 = this.score3 + parseInt(scoreVal);
+        break;
+      case 4:
+        this.score4 = this.score4 + parseInt(scoreVal);
+        break;
+      case 5:
+        this.score5 = this.score5 + parseInt(scoreVal);
+        break;
+      }
+  }
+  decrementScore(num: number, scoreVal: string){
+    switch(num){
+      case 1:
+        this.score1 = this.score1 - parseInt(scoreVal);
+        if(this.score1<0)
+        {
+          this.score1=0;
+        }
+        break;
+      case 2:
+        this.score2 = this.score2 - parseInt(scoreVal);
+        if(this.score2<0)
+        {
+          this.score2=0;
+        }
+        break;
+      case 3:
+        this.score3 = this.score3 - parseInt(scoreVal);
+        if(this.score3<0)
+        {
+          this.score3=0;
+        }
+        break;
+      case 4:
+        this.score4 = this.score4 - parseInt(scoreVal);
+        if(this.score4<0)
+        {
+          this.score4=0;
+        }
+        break;
+      case 5:
+        this.score5 = this.score5 - parseInt(scoreVal);
+        if(this.score5<0)
+        {
+          this.score5=0;
+        }
+        break;
+      }
   }
 }

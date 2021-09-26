@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { NgModule } from '@angular/core';
+import students from '../data/studentNames.json'
 
 @Component({
   selector: 'app-randomize',
@@ -10,20 +10,21 @@ export class RandomizeComponent implements OnInit {
   @Output() featureSelected = new EventEmitter<string>();
 
   chosenName: string;
-  studentNames: {name: string, gender: string}[] = [
-    {name: 'Shelly Thomas', gender: 'm'},
-    {name: 'Prize Thomas', gender: 'f'},
-    {name: 'Leon Thomas', gender: 'm'},
-    {name: 'Livia Thomas',  gender: 'f'},
-    {name: 'Lianne Thomas', gender: 'f'},
-    {name: 'Sichu Sebastian', gender: 'm'},
-    {name: 'Pretty Sebastian', gender: 'f'},
-    {name: 'Merin Sebastian', gender: 'f'},
-    {name: 'Erin Sebastian', gender: 'f'},
-    {name: 'Ethan Sebastian', gender: 'm'},
-    {name: 'Mummy Thomas', gender: 'f'},
-    {name: 'Achachan Thomas', gender: 'm'}
-  ];
+  studentNames: {name: string, gender: string}[] = students;
+  // [
+  //   {name: 'Shelly Thomas', gender: 'm'},
+  //   {name: 'Prize Thomas', gender: 'f'},
+  //   {name: 'Leon Thomas', gender: 'm'},
+  //   {name: 'Livia Thomas',  gender: 'f'},
+  //   {name: 'Lianne Thomas', gender: 'f'},
+  //   {name: 'Sichu Sebastian', gender: 'm'},
+  //   {name: 'Pretty Sebastian', gender: 'f'},
+  //   {name: 'Merin Sebastian', gender: 'f'},
+  //   {name: 'Erin Sebastian', gender: 'f'},
+  //   {name: 'Ethan Sebastian', gender: 'm'},
+  //   {name: 'Mummy Thomas', gender: 'f'},
+  //   {name: 'Achachan Thomas', gender: 'm'}
+  // ];
   selectedNames: string[] = [];
   
   namesCopy: {name: string, gender: string}[] = [];

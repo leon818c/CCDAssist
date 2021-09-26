@@ -121,7 +121,7 @@
 }
 .loginBox input[type = "text"]:focus, .loginBox input[type = "password"]:focus{
     width: 280px;
-    border-color: #DAA520;
+    border-color: #614809;
 }
 
 .loginBox input[type = "submit"]{
@@ -130,7 +130,7 @@
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #123131;
+    border: 2px solid #614809;
     padding: 14px 40px;
     outline: none;
     color: white;
@@ -140,5 +140,5 @@
 }
 
 .loginBox input[type = "submit"]:hover{
-    background: #123131;
+    background: #614809;
 }

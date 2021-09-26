@@ -14,6 +14,7 @@
     background: rgb(255, 255, 255);
     text-align: center;
     margin-top: 50px;
+    background: linear-gradient(#8ad0e5,#308852);
 }
 .homeButton{
     text-align: left;
@@ -75,10 +76,16 @@ i{
     justify-items: center;
 }
 .list-group{
-    max-width: 200px;
+    max-width: 500px;
+}
+.list-group-item{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    text-align: left;
 }
 .label-style{
     color: purple;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
+    font-size: 4.5em;
 }
