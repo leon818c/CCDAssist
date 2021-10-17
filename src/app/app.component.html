@@ -2,12 +2,17 @@
     <div class="main-classes">
       <app-home *ngIf = "loadedFeature === 'H'" (featureSelected) = "onNavigate($event)"></app-home>
       <app-randomize *ngIf = "loadedFeature === 'R'" (featureSelected) = "onNavigate($event)"></app-randomize> 
-      <app-grouping *ngIf = "loadedFeature === 'G'"></app-grouping>
+      <app-groupingG4 *ngIf = "loadedFeature === 'G'" (featureSelected) = "onNavigate($event)"></app-groupingG4>
+      <app-groupingG8 *ngIf = "loadedFeature === 'G'"  (featureSelected) = "onNavigate($event)"></app-groupingG8>
       <app-wheel-of-fortune *ngIf = "loadedFeature === 'W'"></app-wheel-of-fortune>
       <app-catholic-answers *ngIf = "loadedFeature === 'C'"></app-catholic-answers>
       <app-testing *ngIf = "loadedFeature === 'T'"></app-testing>
       <app-features-page *ngIf = "loadedFeature === 'FP'" (featureSelected) = "onNavigate($event)"></app-features-page>
       <app-login  *ngIf = "loadedFeature === 'L'"></app-login>
       <app-questions *ngIf = "loadedFeature === 'Q'"></app-questions>
+      <app-about *ngIf = "loadedFeature === 'AU'"></app-about>
     </div>
-  
+
+    
+        <router-outlet></router-outlet>
+      
