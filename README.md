@@ -1,4 +1,7 @@
 # CCDAssist
+# Overview
+This project was created to help teachers with making their class more interesting and have more involvement among teachers and students.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
